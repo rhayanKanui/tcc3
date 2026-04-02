@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/sobremim.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Sobre mim</title>
+</head>
+<body>
+  <header>
+      <div class="container">
+        <h1 class="logo">Arte em mim?</h1>
+        <nav>
+          <ul>
+            <li><a href="/html/maissobrearte.html">+sobre arte</a></li>
+            <li><a href="/html/navbar.html">Home</a></li>
+            <li><a href="/html/contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <script>
+      fetch('navbar.html')
+        .then(response => response.text())
+        .then(data => document.getElementById('navbar').innerHTML = data);
+    </script>
+    <br>
+    <main>
+              <h2>Sobre mim</h2><br>
+
+      <section>
+
+        <div class="text">
+          <p>Desde cedo, sempre gostei de coisas relacionadas à arte e criatividade. Meu nome é Rhayan, e a arte, pra mim, sempre foi uma forma de me expressar, mesmo quando eu não sabia explicar muito bem o que eu sentia.
+
+            Com o tempo, fui percebendo que eu vejo a arte em várias coisas do dia a dia, não só em desenho ou pintura, mas também em ideias, histórias e até na forma de pensar. Pra mim, criar é um jeito de transformar o que está na minha cabeça em algo mais concreto.
+            
+            Eu não me considero alguém perfeito nisso, mas gosto de aprender e melhorar aos poucos. Acho que a arte também ajuda nisso, porque você vai testando, errando e evoluindo com o tempo.
+            
+            Quero continuar desenvolvendo isso em mim, entendendo melhor o que eu gosto e como posso usar a arte de um jeito que faça sentido pra mim.
+            
+            Ainda estou no começo, mas sei que a arte vai continuar fazendo parte da minha vida de alguma forma.
+            </p>
+</div>
+  <div class="imagem">
+<img src="/assets/1000182263.jpg" class="circo digital">
+      </section>
+    </main>
+    </div>
+</body>
+</html>

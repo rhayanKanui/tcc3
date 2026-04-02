@@ -1,0 +1,311 @@
+<<<<<<<< HEAD:css/sobremim.css
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background:rgb(241, 143, 73);
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  background:rgb(128, 60, 4);
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+  font-size: 65px;
+}
+
+h1{
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main{
+  padding: 20px;
+}
+
+section {
+  background-color:rgb(58, 104, 123);
+  color: antiquewhite;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1px;
+}
+
+h2{
+  font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: beige;
+}
+
+p {
+  padding: 2px;
+  max-width: 600px;
+  text-align: justify;
+  text-indent: 1.20em;
+}
+
+
+.imagem img {
+  width: 300px;
+  border-radius: 15px;
+}
+
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 73px;
+  padding-top: 45px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #964b00;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+.texto-imagem {
+    color:rgb(255, 251, 0);
+}
+
+.logo {
+    color:rgb(122, 197, 218);
+}
+
+.minha-imagem {
+    color:rgb(0, 0, 0);
+}
+
+
+.exemplos-home {
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+    width: 70%;
+========
+@import url();
+@import url();
+@import url();
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background:rgb(241, 143, 73);
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  background:rgb(128, 60, 4);
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+  font-size: 65px;
+}
+
+h1{
+  font-family: "Betania Patmos In", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main{
+  padding: 20px;
+}
+
+section {
+  background-color:rgb(250, 156, 5);
+  color: antiquewhite;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+h2{
+  font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: beige;
+}
+
+p {
+  font-family: "Syne Mono", monospace;
+  padding: 20px;
+  max-width: 600px;
+  text-align: justify;
+  text-indent: 1.25em;
+}
+
+
+.imagem img {
+  width: 300px;
+  border-radius: 15px;
+}
+
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 73px;
+  padding-top: 45px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #964b00;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+.texto-imagem {
+    color:rgb(255, 251, 0);
+}
+
+.logo {
+    color:rgb(122, 197, 218);
+}
+
+.minha-imagem {
+    color:rgb(0, 0, 0);
+}
+
+
+.exemplos-home {
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+    width: 70%;
+>>>>>>>> 3e96210499ddb03b1addd3520880a34f7184c6a0:TCC/css/sobremim.css
+}
