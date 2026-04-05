@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/TCC/css/maissobrearte.css">
+    <link rel="stylesheet" href="/TCC/css/style.css">
+    <title>Sobre mim</title>
+</head>
+<body>
+  <div id="header-placeholder"></div>
+  <header>
+      <div class="container">
+        <h1 class="logo">Arte em mim?</h1>
+        <nav>
+          <ul>
+            <li><a href="/TCC/html/navbar.html">Home</a></li>
+            <li><a href="/TCC/html/contato.html">Contato</a></li>
+            <li><a href="/TCC/html/sobremim.html">sobre mim</a></li>
+
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <script>
+      fetch('navbar.html')
+        .then(response => response.text())
+        .then(data => document.getElementById('navbar').innerHTML = data);
+    </script>
+    <main>
+        <h2>Sobre a arte</h2>
+      
+        <section class="arte-dividida">
+      
+          <div class="lado esquerdo">
+            <h3>Passado</h3>
+            <p>
+                A arte já existia há muito, muito tempo, desde as pinturas feitas pelos homens das cavernas, que podiam servir como avisos, registros ou relatos de histórias. Com o passar dos anos, ela se desenvolveu cada vez mais, tornando-se pinturas deslumbrantes e cheias de significado. Mas a arte não se resume apenas à pintura: ela também está presente em estátuas, danças, tradições e em muitas outras formas de expressão. A arte é moldável e pode assumir diferentes formas, mostrando como as pessoas pensam, sentem e enxergam o mundo.
+            </p>
+          </div>
+      
+          <div class="linha"></div>
+      
+          <div class="lado direito">
+            <h3>Atual</h3>
+            <p>
+                Hoje, a arte está ainda mais desenvolvida e presente em diversas áreas, transformando ideias e histórias em livros, séries, filmes e jogos. Ela continua sendo representada por músicas, danças e outras formas de expressão, mas agora também alcança um nível de detalhe impressionante. Em muitos casos, a qualidade visual chega a ser quase surreal, parecendo uma fotografia. Isso cria um paralelo interessante entre o passado, com os retratos e pinturas clássicas, e o presente, com as artes digitais realistas.
+            </p>
+          </div>
+      
+        </section>
+      </main>
